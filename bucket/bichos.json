@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "description": "Bio-Mimetic Framework for Agentic Software QA",
+  "homepage": "https://github.com/charly-vibes/bichos",
+  "license": "MIT",
+  "notes": "Requires Python. Install with: pip install bichos",
+  "suggest": {
+    "Python": ["python"]
+  },
+  "url": "https://github.com/charly-vibes/bichos/releases/download/v0.1.0/bichos-0.1.0-py3-none-any.whl",
+  "hash": "sha256:PLACEHOLDER",
+  "pre_install": [
+    "python -m pip install \"$dir\\bichos-$version-py3-none-any.whl\" --target \"$dir\\Lib\" -q"
+  ],
+  "env_add_path": "$dir\\Lib\\Scripts",
+  "bin": "bichos.exe",
+  "checkver": {
+    "github": "https://github.com/charly-vibes/bichos"
+  },
+  "autoupdate": {
+    "url": "https://github.com/charly-vibes/bichos/releases/download/v$version/bichos-$version-py3-none-any.whl"
+  }
+}
