@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "description": "AI-powered screenshot capture and analysis tool",
+  "homepage": "https://github.com/charly-vibes/fotos",
+  "license": "MIT",
+  "url": "https://github.com/charly-vibes/fotos/releases/download/v0.2.0/fotos_0.2.0_x64_en-US.msi",
+  "hash": "sha256:PLACEHOLDER",
+  "installer": {
+    "script": [
+      "$msi = Get-Item \"$dir\\fotos_*_en-US.msi\" | Select-Object -First 1",
+      "Start-Process -FilePath 'msiexec.exe' -ArgumentList \"/i\", $msi.FullName, \"TARGETDIR=$dir\", '/qn' -Wait"
+    ]
+  },
+  "uninstaller": {
+    "script": [
+      "$msi = Get-Item \"$dir\\fotos_*_en-US.msi\" -ErrorAction SilentlyContinue | Select-Object -First 1",
+      "if ($msi) { Start-Process -FilePath 'msiexec.exe' -ArgumentList '/x', $msi.FullName, '/qn' -Wait }"
+    ]
+  },
+  "shortcuts": [
+    ["Fotos.exe", "Fotos"]
+  ],
+  "checkver": {
+    "github": "https://github.com/charly-vibes/fotos"
+  },
+  "autoupdate": {
+    "url": "https://github.com/charly-vibes/fotos/releases/download/v$version/fotos_$version_x64_en-US.msi"
+  }
+}
