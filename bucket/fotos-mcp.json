@@ -1,10 +1,10 @@
 {
     "version": "0.3.0",
-    "description": "MCP server for Fotos — AI-powered screenshot tool",
+    "description": "MCP server for Fotos \u2014 AI-powered screenshot tool",
     "homepage": "https://github.com/charly-vibes/fotos",
     "license": "MIT",
     "url": "https://github.com/charly-vibes/fotos/releases/download/v0.3.0/fotos-mcp_0.3.0_windows_amd64.zip",
-    "hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "sha256:dcf5d90d95366cd4399f998c57e6751f99f2fb447128642a50ebc5b724328aae",
     "bin": "fotos-mcp.exe",
     "checkver": {
         "github": "https://github.com/charly-vibes/fotos"
