@@ -4,7 +4,7 @@
     "homepage": "https://github.com/charly-vibes/fotos",
     "license": "MIT",
     "url": "https://github.com/charly-vibes/fotos/releases/download/v0.3.0/fotos_0.3.0_x64_en-US.msi",
-    "hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "sha256:866e89953c1e130c21ed8a53a6a7b1f17f2c097e5358eb525a0d686474f243d3",
     "installer": {
         "file": "fotos_0.3.0_x64_en-US.msi"
     },
