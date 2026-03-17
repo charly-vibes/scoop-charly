@@ -1,10 +1,10 @@
 {
-    "version": "2026.3.2",
+    "version": "2026.3.3",
     "description": "Workflow manager for AI-driven development",
     "homepage": "https://github.com/charly-vibes/wai",
     "license": "MIT",
-    "url": "https://github.com/charly-vibes/wai/releases/download/v2026.3.2/wai_2026.3.2_windows_amd64.zip",
-    "hash": "sha256:4843583209f6100a9be251b284ca5d1ffd0cea19133b714434cf6307ae8eedb3",
+    "url": "https://github.com/charly-vibes/wai/releases/download/v2026.3.3/wai_2026.3.3_windows_amd64.zip",
+    "hash": "sha256:a33a98ae5dd55f8c2f4375a807c46d317c56a08a1f644f68cf436034963ed42a",
     "bin": "wai.exe",
     "checkver": {
         "github": "https://github.com/charly-vibes/wai"
