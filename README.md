@@ -34,7 +34,7 @@ scoop update *
 
 ---
 
-Manifests are auto-updated on each release via [GoReleaser](https://goreleaser.com) and GitHub Actions.
+Manifests are auto-updated on each release via GitHub Actions.
 
 
 ---
