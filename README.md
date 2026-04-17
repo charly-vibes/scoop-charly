@@ -13,7 +13,6 @@ scoop bucket add charly https://github.com/charly-vibes/scoop-charly
 | Manifest | Description |
 |----------|-------------|
 | `wai` | Workflow manager for AI-driven development |
-| `fabbro` | Local-first code review annotation tool |
 | `fotos-mcp` | MCP server for the Fotos screenshot tool |
 | `fotos` | AI-powered screenshot capture and analysis app |
 
@@ -21,7 +20,6 @@ scoop bucket add charly https://github.com/charly-vibes/scoop-charly
 
 ```powershell
 scoop install wai
-scoop install fabbro
 scoop install fotos-mcp
 scoop install fotos
 ```
