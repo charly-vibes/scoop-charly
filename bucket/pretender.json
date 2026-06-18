@@ -1,0 +1,15 @@
+{
+    "version": "0.0.0",
+    "description": "Structural code-quality checker for multiple languages",
+    "homepage": "https://github.com/charly-vibes/pretender",
+    "license": "MIT",
+    "url": "https://github.com/charly-vibes/pretender/releases/download/v0.0.0/pretender_0.0.0_windows_amd64.zip",
+    "hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "bin": "pretender.exe",
+    "checkver": {
+        "github": "https://github.com/charly-vibes/pretender"
+    },
+    "autoupdate": {
+        "url": "https://github.com/charly-vibes/pretender/releases/download/v$version/pretender_$version_windows_amd64.zip"
+    }
+}
