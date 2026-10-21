@@ -1,10 +1,10 @@
 {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "Program analysis tool for verifying compliance with laws and policies",
     "homepage": "https://github.com/charly-vibes/vampiro",
     "license": "Apache-2.0",
-    "url": "https://github.com/charly-vibes/vampiro/releases/download/v0.6.0/vampiro_0.6.0_windows_amd64.zip",
-    "hash": "sha256:86cb7c132dda531996f9c365efa871f18c54d89e5fba4276875084928df11c16",
+    "url": "https://github.com/charly-vibes/vampiro/releases/download/v0.6.1/vampiro_0.6.1_windows_amd64.zip",
+    "hash": "sha256:fde8098c889b3dc6a5273493e53a22ab5617e2cd71a0913c433771fb250254df",
     "bin": "vampiro.exe",
     "checkver": {
         "github": "https://github.com/charly-vibes/vampiro"
