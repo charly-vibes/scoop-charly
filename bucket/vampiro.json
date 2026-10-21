@@ -4,7 +4,7 @@
     "homepage": "https://github.com/charly-vibes/vampiro",
     "license": "Apache-2.0",
     "url": "https://github.com/charly-vibes/vampiro/releases/download/v0.6.1/vampiro_0.6.1_windows_amd64.zip",
-    "hash": "sha256:fde8098c889b3dc6a5273493e53a22ab5617e2cd71a0913c433771fb250254df",
+    "hash": "sha256:065111c0b16119dd05cdd8a563bed08908c7dddebcf878813d9cfdf3418c6aa7",
     "bin": "vampiro.exe",
     "checkver": {
         "github": "https://github.com/charly-vibes/vampiro"
