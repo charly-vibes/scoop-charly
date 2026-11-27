@@ -13,12 +13,14 @@ scoop bucket add charly https://github.com/charly-vibes/scoop-charly
 | Manifest | Description |
 |----------|-------------|
 | `wai` | Workflow manager for AI-driven development |
+| `wild` | Scoped dependency-contract checker for Rust/Cargo updates |
 | `fotos-mcp` | MCP server for the Fotos screenshot tool |
 | `fotos` | AI-powered screenshot capture and analysis app |
 
 ## Install
 
 ```powershell
+scoop install wild
 scoop install wai
 scoop install fotos-mcp
 scoop install fotos
